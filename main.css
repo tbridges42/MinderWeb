@@ -1,0 +1,107 @@
+body {
+  background-color: #f7eecf;
+  font-family: 'Open Sans', Calibri, sans-serif;
+  line-height: 150%;
+}
+
+nav {
+  height: 50px;
+  width: 100%;
+  background-color: #609490;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 12px 0 0 0;
+}
+
+nav p {
+	display: inline;
+	
+}
+
+nav .logo{
+	display: inline;
+	padding-left: 10px;
+	font-size: 24px;
+	position: relative;
+}
+
+nav ul {
+	display: inline;
+}
+
+nav li {
+	float: right;
+	display: inline;
+	padding-right: 10px;
+	font-size: 24px;
+}
+
+.header-graphic {
+  height: 450px;
+  background: #a6c2b3 url("images/office-blur-letterbox.jpg") top center no-repeat;
+  overflow: hidden;
+  background-size: 2000px;
+}
+
+#finger {
+	padding: 0;
+}
+
+.intro-text {
+  margin-top: 35px;
+  border-radius: 15px;
+  padding: 40px;
+  color: #ffffff;
+  background-color: rgba(100,100,100,0.65);
+}
+
+.title {
+  font-size: 64px;
+  padding: 0;
+  margin: 0;
+  font-family: 'Ledger', Garamond, serif;
+}
+
+.description {
+	line-height: 150%;
+}
+
+.call-to-action {
+  white-space: normal;
+  background-color: #b91818;
+  border-radius: 15px;
+  padding: 20px 10px 10px 10px;
+  margin: 20px 0 0 0;
+}
+
+.call-to-action a {
+  color: #ffffff;
+}
+
+.call-to-action a:hover {
+	text-decoration: none;
+}
+
+.call-to-action p {
+  text-align: center;
+  font-size: 28px;
+}
+
+.mockup {
+	padding: 0;
+}
+
+.row {
+	margin-top: 20px;
+}
+
+.footer {
+  background-color: #000000;
+  color: #f7eecf;
+  padding-bottom: 10px;
+}
+
+.copyright {
+  text-align: right;
+}
