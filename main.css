@@ -13,11 +13,10 @@ nav {
   height: 50px;
   background-color: #609490;
   overflow: hidden;
-  color: #ddd;
 }
 
 nav a {
-	color: #ddd;
+	color: #fff;
 }
 
 .vertical-center {
@@ -29,7 +28,6 @@ nav a {
 .brand {
 	font-size: 1.3em;
 	font-family: 'Josefin Sans';
-	color: #ddd;
 	position: absolute;
 	top: 50%;
 }
@@ -53,6 +51,8 @@ nav a {
 }
 
 .intro-text {
+
+  text-align: left;
   margin-top: 35px;
   border-radius: 15px;
   padding: 40px;
