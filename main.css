@@ -1,3 +1,8 @@
+@font-face {
+	font-family: josephin;
+	src: url('fonts/JosephinSans-Thin.ttf');
+}
+
 body {
   background-color: #f7eecf;
   font-family: 'Open Sans', Calibri, sans-serif;
@@ -12,6 +17,7 @@ nav {
   overflow: hidden;
   margin: 0;
   padding: 12px 0 0 0;
+  color: #ddd;
 }
 
 nav p {
@@ -30,6 +36,12 @@ nav li {
 	display: inline;
 	padding-right: 10px;
 	font-size: 24px;
+}
+
+.brand {
+	font-size: 3em;
+	font-family: 'Josefin Sans';
+	color: #ddd;	
 }
 
 .navbar {
