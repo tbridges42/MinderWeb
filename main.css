@@ -11,41 +11,32 @@ body {
 
 nav {
   height: 50px;
-  width: 100%;
   background-color: #609490;
-  display: block;
   overflow: hidden;
-  margin: 0;
-  padding: 12px 0 0 0;
   color: #ddd;
 }
 
-nav p {
-	display: inline;
-	
+nav a {
+	color: #ddd;
 }
 
-
-
-nav ul {
-	display: inline;
-}
-
-nav li {
-	float: right;
-	display: inline;
-	padding-right: 10px;
-	font-size: 24px;
+.vertical-center {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .brand {
-	font-size: 3em;
+	font-size: 1.3em;
 	font-family: 'Josefin Sans';
-	color: #ddd;	
+	color: #ddd;
+	position: absolute;
+	top: 50%;
 }
 
 .navbar {
 	margin-bottom: 0;
+	font-size: 2em;
 }
 
 .header-graphic {
@@ -92,8 +83,9 @@ nav li {
   color: #ffffff;
 }
 
-.call-to-action a:hover {
+a:hover {
 	text-decoration: none;
+	color: #000;
 }
 
 .call-to-action p {
