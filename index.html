@@ -6,29 +6,42 @@
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
 		<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:300' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="main.css" />
+		
 		<title>Minder - The Most Versatile Alarm for Android</title>
 	</head>
 	<body class="text-justify">
+		<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+		<script src="bootstrap.min.js"></script>
 		<header>
-			<nav class="navbar navbar-static-top">
+			<nav class="navbar navbar-default navbar-static-top">
 				<div class="container">
-					<a href=".." class="brand vertical-center">
-						Building Bridges
-					</a>
-					<ul class="nav navbar-nav navbar-right">
+					<div class="navbar-header">
+						<a href=".." class="navbar-brand brand">
+							Building Bridges
+						</a>
+					
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="sr-only">Toggle Navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<ul class="nav navbar-nav navbar-right collapse navbar-collapse">
 						<li><a href="https://play.google.com/store/apps/details?id=us.bridgeses.Minder">Download</a></li>
 						<li><a href="http://support.bridgeses.us">Support</a></li>
+						<li><a href="#">Source</a></li>
 					</ul>
 				</div>
 			</nav>
 			<div class="header-graphic container-fluid">
 				<div class="container">
-					<div class="col-sm-1 col-md-4 col-lg-4 hidden-xs hidden-sm">
+					<div class="col-md-6 hidden-xs hidden-sm">
 						<img src="images/finger-with-string.png" alt="A finger with string tied in a bow, to remember" id="finger" />
 					</div>
-					<div class="intro-text col-md-6 col-md-offset-2 col-xs-12">
+					<div class="intro-text col-md-6 col-xs-12">
 						<h1 class="title">Minder</h1>
-						<h2 class="description">Reminders for the forgetful, the distracted, and the busy</h2>
+						<h3 class="description">Reminders for the forgetful, the distracted, and the busy</h3>
 						<button type="button" class="call-to-action btn col-md-12">
 							<p><a href="https://play.google.com/store/apps/details?id=us.bridgeses.Minder">Download Now For Android</a></p>
 						</button>
@@ -39,25 +52,27 @@
 		<section class="container">
 			<div class="row">
 				<div class="col-md-9">
-					<h1>Create as many reminders as you need</h1>
+					<h2>Create as many reminders as you need</h2>
 					<p>Real life is full of things you need to remember, both big and small. Time to pick up your daughter from practice? Time to take your medicine? Walk the dog? Leave for work? You can store literally millions of reminders in Minder.</p>
 					<p>Minder was originally created to deal with both the forgetfulness and stubbornness that comes with major depression. Use it to track everything in your life, and to make sure everything gets done. Remember work assignments, personal appointments, or even basic self-care. 
 					If you need an extra push to deal with the essentials, Minder can also make sure you shower, take your pills, eat, or anything else you need an extra hand to make yourself do. Tell it what you want to do while you're up, and it'll hold you to it when you're down.</p>
 				</div>
+				<img src="images/S5-mockup-reminder-list-black-narrow.png" class="mockup-narrow visible-xs visible-sm" />
 				<img src="images/S5-mockup-reminder-list-black.png" alt="A Galaxy S5 demonstrating the app's list of reminders" class="mockup col-md-3 hidden-xs hidden-sm" id="reminder-list" />
 			</div>
 			<div class="row">
 				<img src="images/S5-mockup-edit-detail-black.png" alt="A Galaxy S5 demonstrating some of the app's customization features" class="mockup col-md-3 hidden-xs hidden-sm" />
 				<div class="col-md-9">
-					<h1>Create a reminder for anything</h1>
+					<h2>Create a reminder for anything</h2>
 					<p>Minder is built from the ground up with versatility in mind. Do you just need your phone to beep to gently remind you it's time to leave? Minder can do that. Do you need your phone to wake you up and make sure you don't go back to sleep until you've taken your insulin? Minder can do that, too.</p>
 					<p>Minder can use any ringtone or notification sound. It can vibrate, flash, yell your name. It can get your attention even if you left your phone on silent. Or it can be as discreet as a message in your notification shade. It's up to you.</p>
-					<p>Use repeating reminders to remember daily, weekly, monthly or annual obligations. Minder can use a wide variety of repeating patterns. Set a reminder for every weekday, or the fourth Saturday of every month, or every 215 days.</p>
+					<p>Use repeating reminders to remember daily, weekly, monthly or annual obligations. Minder can use a wide variety of repeating patterns. Set a reminder for every weekday, or the fourth Saturday of every month, or every 215 days.</p>				
 				</div>
+				<img src="images/S5-mockup-edit-detail-black-narrow.png" class="mockup-narrow visible-xs visible-sm" />	
 			</div>
 			<div class="row">
 				<div class="col-md-9">
-					<h1>Be reminded when you need it, where you need it</h1>
+					<h2>Be reminded when you need it, where you need it</h2>
 					<p>Minder knows you can't wash the dishes while you're at work. Attach reminders to a GPS location or WiFi network, and Minder will wait to remind you until you get where you need to be.</p>
 					<ul>
 						<li>Remember to take your pills as soon as you get home</li>
@@ -66,12 +81,13 @@
 						<li>Don't get reminded to take out the trash while you're at a friend's house</li>
 					</ul>
 				</div>
+				<img src="images/S5-mockup-map-black-narrow.png" class="mockup-narrow visible-xs visible-sm" />
 				<img src="images/S5-mockup-map-black.png" alt="A Galaxy S5 demonstrating the app's location function" class="mockup col-md-3 hidden-xs hidden-sm" id="reminder-list" />
 			</div>
 			<div class="row">
 				<img src="images/S5-mockup-alarm-black.png" alt="A Galaxy S5 demonstrating some of the app's customization features" class="mockup col-md-3 hidden-xs hidden-sm" />
 				<div class="col-md-9">
-					<h1>Make absolutely sure you don't forget</h1>
+					<h2>Make absolutely sure you don't forget</h2>
 					<p>Minder is as unobtrusive or as annoying as you need it to be. If you just need a notification to remind you it's time to check on the laundry, set up a reminder with a simple beep. But if you need a little more nudging, make an alarm that won't stop until you scan a barcode with your phone.</p>
 					<ul>
 						<li>Make absolutely sure you take important medicine by ringing until you scan the barcode on your pill bottle</li>
@@ -79,7 +95,8 @@
 						<li>Turn on confirmation prompts to make sure you don't dismiss alarms in your pocket</li>
 						<li>Limit your snoozes so you don't keep rolling back over</li>
 					</ul>
-				</div>				
+				</div>	
+				<img src="images/S5-mockup-alarm-black-narrow.png" class="mockup-narrow visible-xs visible-sm" />
 			</div>
 			<div class="row">
 				<div class="col-md-2 col-md-offset-5">
